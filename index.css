@@ -235,7 +235,7 @@ img:hover {
 }
 
 .footer-nav a {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 h4 {
@@ -264,4 +264,8 @@ footer {
     font-size: 2.5rem;
 }
 
-.navbar
+header.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
