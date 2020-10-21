@@ -1,0 +1,267 @@
+/* Add CSS styling here */
+
+
+/*css reset*/
+
+html,
+html body {
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* font-size: 1em; */
+}
+
+*,
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+label,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+    /* padding-top: 20px; */
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+ :link,
+ :visited {
+    text-decoration: none;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+
+/* The below restores some sensible defaults */
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+a img {
+    border: none;
+}
+
+sup {
+    vertical-align: super;
+    font-size: 60%;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: 60%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* end of reset */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    font-size: 2.3rem;
+    background-color: lightgray;
+}
+
+h1 {
+    line-height: 1.3;
+    /* font-size: 3rem; */
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.nav-bar {
+    /* font-size: 1.2rem; */
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+    background-color: lightslategray;
+}
+
+.nav-bar .container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.signup-button {
+    background-color: lightblue;
+}
+
+.login-button {
+    background-color: lightslategrey;
+}
+
+.aboutus-button {
+    background-color: lightgreen;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.contact-button {
+    background-color: lightseagreen;
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.topics {
+    width: 40%;
+    text-align: center;
+}
+
+.topics img {
+    width: 100%;
+}
+
+.second-section {
+    padding-bottom: 2rem;
+}
+
+img:hover {
+    opacity: 90%;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer-nav a {
+    padding: 1rem;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-paragraph {
+    padding: 3rem;
+}
+
+h1 img {
+    padding: 1rem;
+}
+
+.header-img {
+    padding: 3rem;
+}
+
+footer {
+    background-color: lightslategray;
+}
+
+.topics a {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.navbar
