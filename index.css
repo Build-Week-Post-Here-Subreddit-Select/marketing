@@ -266,9 +266,57 @@ header.container {
     justify-content: center;
 }
 
+.cards div {
+    height: 250px;
+    width: 250px;
+    margin: 50px;
+    border: 1px solid black;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item img {
+    height: 250px;
+    width: 250px;
+}
+
+.flex-item #name {
+    margin-top: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item #role {
+    font-style: italic;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 600px) {
     .navbar {
         display: flex;
         flex-flow: column wrap;
     }
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.intro-p {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-section {
+    padding-bottom: 5rem;
 }
