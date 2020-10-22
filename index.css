@@ -155,15 +155,9 @@ a {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 100%;
     margin: auto;
     padding: 1rem;
-}
-
-.nav-bar {
-    /* font-size: 1.2rem; */
-    padding-top: 1rem;
-    padding-bottom: 0.4rem;
     background-color: lightslategray;
 }
 
@@ -209,6 +203,7 @@ button:hover {
     justify-content: space-around;
     width: 80%;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 .topics {
@@ -257,6 +252,7 @@ h1 img {
 
 footer {
     background-color: lightslategray;
+    padding: 3rem;
 }
 
 .topics a {
@@ -268,4 +264,11 @@ header.container {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        display: flex;
+        flex-flow: column wrap;
+    }
 }
